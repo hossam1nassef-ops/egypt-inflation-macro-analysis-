@@ -86,11 +86,9 @@ $$\hat{\pi}_t = 5.00 + 0.303(\pi_{t-1}) + 0.131(\text{gap}_t) + 0.387(\Delta \ln
 
 ## 5. SHARE: Visual Evidence & Regime Validation
 
-> **Note on Repository Images:** Keep your existing chart image links from your original `README.md` right below (e.g., `![Model Predictive Validity](...)` and `![Structural Attribution](...)`), or verify their exact filenames in your repository's image folder so GitHub renders them directly inline.
-
 ### Visual 1 — Model Predictive Validity (2014–2028)
 
-![Model Predictive Validity (2014–2028)] <img width="1600" height="800" alt="case_study_fig2_attribution" src="https://github.com/user-attachments/assets/5f7063ff-f265-4971-8df5-43d2d6cf7568" />
+![Model Predictive Validity (2014–2028)]<img width="1600" height="800" alt="case_study_fig2_attribution" src="https://github.com/user-attachments/assets/5f7063ff-f265-4971-8df5-43d2d6cf7568" />
 
 * **High Predictive Accuracy ($R^2 = 0.922$):** The Hybrid NKPC model closely tracks actual headline CPI across multiple macroeconomic regimes.
 * **Devaluation Shock Alignment:** Accurately captures both the **2017 floatation peak** (`31.46%` modeled vs. `29.50%` actual) and the **2024 FX realignment** (`30.56%` modeled vs. `30.95%` actual).
@@ -98,7 +96,7 @@ $$\hat{\pi}_t = 5.00 + 0.303(\pi_{t-1}) + 0.131(\text{gap}_t) + 0.387(\Delta \ln
 
 ### Visual 2 — Structural Attribution (ERPT vs. Output Gap)
 
-![Structural Attribution: ERPT vs. Output Gap] <img width="1600" height="800" alt="case_study_fig1_fit" src="https://github.com/user-attachments/assets/a491df90-1de2-4125-867b-a543fadb85d0" />
+![Structural Attribution: ERPT vs. Output Gap]<img width="1600" height="800" alt="case_study_fig1_fit" src="https://github.com/user-attachments/assets/a491df90-1de2-4125-867b-a543fadb85d0" />
 
 * **Exchange Rate Dominance ($\text{Corr} = +0.92$):** Severe FX depreciation spikes (orange bars) in `2016–2017` and `2022–2024` directly trigger the sharp surges in headline CPI (red line).
 * **Output Gap Noise ($\text{Corr} = -0.08$):** Domestic output gap fluctuations (grey bars) remain flat near zero, confirming that domestic demand overheating does not drive Egyptian inflation.
